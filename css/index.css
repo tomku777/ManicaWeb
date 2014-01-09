@@ -1,0 +1,145 @@
+.html
+{
+	background-color: #7F7F7F;
+}
+
+#page
+{
+	z-index: 1;
+	width: 640px;
+	min-height: 723px;
+	background-image: none;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-top: -37px;
+	margin-bottom: -48px;
+}
+
+#pslideshowu170
+{
+	width: 0.01px;
+	padding-bottom: 703px;
+	left: -100px;
+	position: relative;
+}
+
+#slideshowu170
+{
+	z-index: 2;
+	width: 0.01px;
+	height: 0px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 105px;
+	left: 255px;
+}
+
+#u212
+{
+	position: absolute;
+	background-color: transparent;
+}
+
+#u212popup
+{
+	z-index: 3;
+}
+
+#u217
+{
+	z-index: 4;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* slideshowFreeStyle */
+{
+	cursor: pointer;
+}
+
+.SSSlideLoading /* slideshowFreeStyle */
+{
+	background: url("../images/loading.gif") no-repeat center center;
+}
+
+#u289
+{
+	z-index: 13;
+	width: 840px;
+	height: 57px;
+	border-color: #000000;
+	background-color: #000000;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u313
+{
+	z-index: 14;
+	width: 120px;
+	position: fixed;
+	top: 12px;
+	left: 21px;
+}
+
+#u161
+{
+	z-index: 6;
+	width: 251px;
+	margin-left: 195px;
+	top: -636px;
+	margin-bottom: -195px;
+	position: relative;
+}
+
+#u337-4
+{
+	z-index: 8;
+	display: block;
+	vertical-align: top;
+	left: -12px;
+	top: -394px;
+	margin-bottom: -89px;
+	position: relative;
+}
+
+#u454
+{
+	z-index: 12;
+	width: 275px;
+	height: 79px;
+	margin-left: 183px;
+	top: -276px;
+	margin-bottom: -79px;
+	position: relative;
+	background: transparent url("../images/btn.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u454:hover
+{
+	margin: 0px 0px -79px 183px;
+	background: transparent url("../images/btn.jpg") no-repeat left top;
+	background-size: contain !important;
+}
+
+body
+{
+	padding-top: 35px;
+	padding-bottom: 47px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
