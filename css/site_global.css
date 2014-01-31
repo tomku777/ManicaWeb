@@ -81,12 +81,6 @@ body
 	body { text-rendering:auto; }
 }
 
-a
-{
-	color: inherit;
-	text-decoration: inherit;
-}
-
 a:link
 {
 	color: #0000FF;
@@ -354,7 +348,13 @@ textarea
 	display: block;
 }
 
-.widget_invisible,.js .invi,.js .se_invi,.js .an_invi /* used to hide the widget before loaded */
+.ose_ei
+{
+	visibility: hidden;
+	z-index: 0;
+}
+
+.widget_invisible,.js .invi,.js .mse_pre_init,.js .an_invi /* used to hide the widget before loaded */
 {
 	visibility: hidden;
 }

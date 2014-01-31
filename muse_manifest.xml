@@ -1,28 +1,41 @@
-<manifest alg="2" build="329" opt="true" iceEnabled="true">
+<manifest alg="2" build="232" opt="true" iceEnabled="true">
   <folder name="css">
-    <file name="site_global.css" crc="3965574698"/>
-    <file name="index.css" crc="159690527" ref="index"/>
+    <file name="site_global.css" crc="397963719"/>
+    <file name="index.css" crc="269223145" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="3865766194" ref="index"/>
-    <file name="jquery.watch.js" crc="4068933136" ref="index"/>
-    <file name="webpro.js" crc="3903299128" ref="index"/>
-    <file name="musewpslideshow.js" crc="138381373" ref="index"/>
-    <file name="jquery.museoverlay.js" crc="4250894771" ref="index"/>
-    <file name="touchswipe.js" crc="4156838003" ref="index"/>
-    <file name="jquery.tobrowserwidth.js" crc="3842421675" ref="index"/>
+    <file name="museutils.js" crc="4291592202" ref="index"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="4006931061" ref="index"/>
+    <file name="jquery.tobrowserwidth.js" crc="3842421675" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="bgd.png" crc="104306613" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="loading.gif" crc="3815509949" ref="index"/>
-    <file name="mca-logo.png" crc="356761220" ref="index"/>
-    <file name="mca-logo-symbol.png" crc="3978350895" ref="index"/>
-    <file name="u337-4.png" crc="405621308" ref="index"/>
-    <file name="btn.png" crc="4058919099" ref="index"/>
-    <file name="btn.jpg" crc="398549670" ref="index"/>
+    <file name="1.png" crc="4109256002" ref="index"/>
+    <file name="btn.jpg" crc="4239738834" ref="index"/>
+    <file name="manica-logo.png" crc="159173487" ref="index"/>
+    <file name="u235-4.png" crc="130044915" ref="index"/>
+    <file name="kdo-jsme.png" crc="397010534" ref="index"/>
+    <file name="kdo-jsme2.png" crc="4234026334" ref="index"/>
+    <file name="scroll.png" crc="293529292" ref="index"/>
+    <file name="2-u203-fr.png" crc="318530572" ref="index"/>
+    <file name="verime.png" crc="64790786" ref="index"/>
+    <file name="verime2.png" crc="4013287688" ref="index"/>
+    <file name="u237-10.png" crc="4041300650" ref="index"/>
+    <file name="hodnoty.png" crc="3813871288" ref="index"/>
+    <file name="hodnoty2.png" crc="367804744" ref="index"/>
+    <file name="u365-8.png" crc="4169590856" ref="index"/>
+    <file name="zkusenosti.png" crc="288791476" ref="index"/>
+    <file name="zkusenosti2.png" crc="406205303" ref="index"/>
+    <file name="u375-6.png" crc="3958104645" ref="index"/>
+    <file name="kontakt.png" crc="259154850" ref="index"/>
+    <file name="kontakt2.png" crc="3884327657" ref="index"/>
+    <file name="u396-6.png" crc="226272399" ref="index"/>
+    <file name="coffee.png" crc="492290263" ref="index"/>
+    <file name="u524-7.png" crc="3858495136" ref="index"/>
+    <file name="up.png" crc="3846987275" ref="index"/>
+    <file name="u546-4.png" crc="4278390612" ref="index"/>
   </folder>
-  <file name="index.html" crc="61817637" mt="1389199390905" redirect="true"/>
+  <file name="index.html" crc="3919617493" mt="1391171131693" redirect="true"/>
 </manifest>
