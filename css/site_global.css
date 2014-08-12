@@ -412,10 +412,3 @@ textarea
 	position: relative;
 }
 
-.accordion_wrapper
-{
-	display: inline;
-	float: left;
-	width: 0px;
-}
-
