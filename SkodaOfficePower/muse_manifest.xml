@@ -1,0 +1,26 @@
+<manifest alg="2" build="30" opt="true" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="3983832653"/>
+    <file name="index.css" crc="4011753615" ref="index"/>
+    <file name="iefonts_index.css" crc="4198975739" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4291592202" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="4006931061" ref="index"/>
+    <file name="jquery.tobrowserwidth.js" crc="3842421675" ref="index"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="logo.png" crc="84683308" ref="index"/>
+    <file name="1-u163-fr.jpg" crc="329874233" ref="index"/>
+    <file name="separator.png" crc="4083386568" ref="index"/>
+    <file name="2.jpg" crc="4201482360" ref="index"/>
+    <file name="3-u201-fr.jpg" crc="3888617496" ref="index"/>
+    <file name="4-u214-fr.jpg" crc="42748513" ref="index"/>
+    <file name="5-u247-fr.jpg" crc="4292383177" ref="index"/>
+    <file name="mca-logo-rgb.png" crc="3973820357" ref="index"/>
+  </folder>
+  <file name="index.html" crc="483314958" mt="1407886060381" redirect="true"/>
+</manifest>
