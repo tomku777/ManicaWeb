@@ -1,7 +1,7 @@
 <manifest alg="2" build="30" opt="true" iceEnabled="true">
   <folder name="css">
     <file name="site_global.css" crc="3983832653"/>
-    <file name="index.css" crc="4011753615" ref="index"/>
+    <file name="index.css" crc="195153713" ref="index"/>
     <file name="iefonts_index.css" crc="4198975739" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -13,8 +13,8 @@
     <file name="jquery.watch.js" crc="4068933136" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="logo.png" crc="84683308" ref="index"/>
-    <file name="1-u163-fr.jpg" crc="329874233" ref="index"/>
+    <file name="logo.png" crc="374467486" ref="index"/>
+    <file name="1-u163-fr.jpg" crc="3767034159" ref="index"/>
     <file name="separator.png" crc="4083386568" ref="index"/>
     <file name="2.jpg" crc="4201482360" ref="index"/>
     <file name="3-u201-fr.jpg" crc="3888617496" ref="index"/>
@@ -22,5 +22,5 @@
     <file name="5-u247-fr.jpg" crc="4292383177" ref="index"/>
     <file name="mca-logo-rgb.png" crc="3973820357" ref="index"/>
   </folder>
-  <file name="index.html" crc="483314958" mt="1407886060381" redirect="true"/>
+  <file name="index.html" crc="218003216" mt="1408521198125" redirect="true"/>
 </manifest>
