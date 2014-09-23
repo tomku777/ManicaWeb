@@ -1,0 +1,144 @@
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 696px;
+	min-height: 449px;
+	background-image: none;
+	border-style: none;
+	border-color: transparent;
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 194px 132px 101px;
+}
+
+#u1051
+{
+	z-index: 2;
+	width: 1159px;
+	height: 69px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #DEDEDE;
+	background-color: #FFFFFF;
+	opacity: 0.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
+	position: fixed;
+	top: 0px;
+	left: 50%;
+	margin-left: -50%;
+}
+
+#u1058
+{
+	z-index: 7;
+	width: 157px;
+	position: fixed;
+	top: 5px;
+	left: 50%;
+	margin-left: -566px;
+}
+
+#u1057-4
+{
+	z-index: 3;
+	width: 91px;
+	min-height: 15px;
+	background-color: transparent;
+	color: #424242;
+	text-align: right;
+	line-height: 10px;
+	font-family: open-sans, sans-serif;
+	font-weight: 400;
+	position: fixed;
+	top: 32px;
+	left: 50%;
+	margin-left: 458px;
+}
+
+#u1057-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 15px;
+	margin: 0px 0px 0px 458px;
+}
+
+#u1057-4:hover p
+{
+	color: #ABABAB;
+	visibility: inherit;
+}
+
+#pu1086-25
+{
+	width: 0.01px;
+	position: relative;
+}
+
+#u1086-25
+{
+	z-index: 9;
+	width: 696px;
+	min-height: 449px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u1086-3
+{
+	text-align: center;
+	font-family: open-sans, sans-serif;
+	font-weight: 300;
+	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
+}
+
+#u1086
+{
+	font-size: 30px;
+	line-height: 36px;
+}
+
+#u1086-2
+{
+	line-height: 17px;
+}
+
+#u1086-6,#u1086-7,#u1086-8,#u1086-9,#u1086-10,#u1086-11,#u1086-12,#u1086-13
+{
+	font-size: 20px;
+	text-align: center;
+	line-height: 24px;
+	color: #7F7F7F;
+	font-family: open-sans, sans-serif;
+	font-weight: 300;
+}
+
+#u1086-4,#u1086-14,#u1086-16,#u1086-17,#u1086-19,#u1086-20,#u1086-22
+{
+	text-align: center;
+	font-family: open-sans, sans-serif;
+	font-weight: 300;
+}
+
+#u1087
+{
+	z-index: 34;
+	width: 223px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 161px;
+	left: 237px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

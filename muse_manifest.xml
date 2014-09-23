@@ -1,37 +1,52 @@
-<manifest alg="2" build="5" opt="true" iceEnabled="true">
+<manifest alg="2" build="30" opt="true" iceEnabled="true">
   <folder name="css">
-    <file name="site_global.css" crc="3983832653"/>
-    <file name="index.css" crc="488785032" ref="index"/>
+    <file name="site_global.css" crc="4023935739"/>
+    <file name="office_power.css" crc="4077769519" ref="office_power"/>
+    <file name="iefonts_office_power.css" crc="3828245624" ref="office_power"/>
+    <file name="index.css" crc="4037885735" ref="index"/>
+    <file name="iefonts_index.css" crc="4078171901" ref="index"/>
+    <file name="mraveniste.css" crc="143911273" ref="mraveniste"/>
+    <file name="iefonts_mraveniste.css" crc="367452734" ref="mraveniste"/>
+  </folder>
+  <folder name="assets">
+    <file name="mca-officepower-web.muse" crc="3928099355" mt="1411386356000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="4291592202" ref="index"/>
-    <file name="pie.js" crc="3827607177" ref="index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="index"/>
-    <file name="jquery.scrolleffects.js" crc="4006931061" ref="index"/>
-    <file name="jquery.tobrowserwidth.js" crc="3842421675" ref="index"/>
-    <file name="jquery.watch.js" crc="4068933136" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:office_power:mraveniste"/>
+    <file name="museutils.js" crc="4291592202" ref="index:office_power:mraveniste"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="index:office_power"/>
+    <file name="jquery.tobrowserwidth.js" crc="3842421675" ref="index:office_power:mraveniste"/>
+    <file name="jquery.scrolleffects.js" crc="4006931061" ref="index:office_power"/>
+    <file name="pie.js" crc="3827607177" ref="index:office_power"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index:office_power:mraveniste"/>
   </folder>
   <folder name="images">
-    <file name="manica-logo.png" crc="159173487" ref="index"/>
-    <file name="scroll.png" crc="293529292" ref="index"/>
-    <file name="up.png" crc="3846987275" ref="index"/>
-    <file name="1.jpg" crc="3963054589" ref="index"/>
-    <file name="mca-web-buttony.png" crc="3769492482" ref="index"/>
-    <file name="mca-web-buttony2.png" crc="3966348847" ref="index"/>
-    <file name="u199-4.png" crc="3788071114" ref="index"/>
-    <file name="2-u75-fr.jpg" crc="3998125481" ref="index"/>
-    <file name="mca-web-buttony3.png" crc="4131056423" ref="index"/>
-    <file name="mca-web-buttony4.png" crc="287518414" ref="index"/>
-    <file name="mca-web-buttony5.png" crc="4060782746" ref="index"/>
-    <file name="mca-web-buttony6.png" crc="361369294" ref="index"/>
-    <file name="mca-web-buttony7.png" crc="3800241098" ref="index"/>
-    <file name="mca-web-buttony8.png" crc="3866743489" ref="index"/>
-    <file name="mca-web-buttony9.png" crc="107900039" ref="index"/>
-    <file name="mca-web-buttony10.png" crc="394734580" ref="index"/>
-    <file name="u93-4.png" crc="469129468" ref="index"/>
-    <file name="mca-web-buttony11.png" crc="306175350" ref="index"/>
-    <file name="mca-web-buttony12.png" crc="4230105857" ref="index"/>
+    <file name="bgd-1-u590-fr.png" crc="7550539" ref="index"/>
+    <file name="manica.png" crc="81063609" ref="index:office_power:mraveniste"/>
+    <file name="icon-next-white.png" crc="345251833" ref="index:office_power"/>
+    <file name="kukej-u103-fr.jpg" crc="424662387" ref="index"/>
+    <file name="user.png" crc="4023531507" ref="index"/>
+    <file name="bulb.png" crc="498539156" ref="index"/>
+    <file name="zhodnoceni.png" crc="18084851" ref="index"/>
+    <file name="pr.png" crc="135420283" ref="index"/>
+    <file name="wheel.png" crc="3955462583" ref="index"/>
+    <file name="cez-b.png" crc="3803711048" ref="index"/>
+    <file name="ave-b.png" crc="4148969384" ref="index"/>
+    <file name="rwe-b.png" crc="462293977" ref="index"/>
+    <file name="ms-b.png" crc="251714632" ref="index"/>
+    <file name="mall-b.png" crc="172293973" ref="index"/>
+    <file name="equa-b.png" crc="3985346165" ref="index"/>
+    <file name="img-logo.png" crc="4099757998" ref="office_power"/>
+    <file name="op.png" crc="413006479" ref="office_power"/>
+    <file name="bulb-w.png" crc="4206190253" ref="office_power"/>
+    <file name="circle-color-small.png" crc="444294605" ref="office_power"/>
+    <file name="mail-mall-u938-fr.jpg" crc="3954240716" ref="office_power"/>
+    <file name="free-ipad-mockup-u957-fr.jpg" crc="436889045" ref="office_power"/>
+    <file name="cez-mail-u947-fr.jpg" crc="453213047" ref="office_power"/>
+    <file name="quotation.png" crc="4152915139" ref="office_power"/>
+    <file name="pasted image 281x66.jpg" crc="4031084689" ref="mraveniste"/>
   </folder>
-  <file name="index.html" crc="3970595714" mt="1397750566653" redirect="true"/>
+  <file name="index.html" crc="493657817" mt="1411507093972" redirect="true"/>
+  <file name="office_power.html" crc="200387631" mt="1411506824885" redirect="true"/>
+  <file name="mraveniste.html" crc="362314396" mt="1411506285228" redirect="true"/>
 </manifest>
