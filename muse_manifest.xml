@@ -1,9 +1,9 @@
 <manifest alg="2" build="30" opt="true" iceEnabled="true">
   <folder name="css">
-    <file name="site_global.css" crc="3983832653"/>
-    <file name="office_power.css" crc="4077769519" ref="office_power"/>
+    <file name="site_global.css" crc="4023935739"/>
+    <file name="office_power.css" crc="4187606905" ref="office_power"/>
     <file name="iefonts_office_power.css" crc="3828245624" ref="office_power"/>
-    <file name="index.css" crc="434471441" ref="index"/>
+    <file name="index.css" crc="3770694641" ref="index"/>
     <file name="iefonts_index.css" crc="4078171901" ref="index"/>
     <file name="mraveniste.css" crc="143911273" ref="mraveniste"/>
     <file name="iefonts_mraveniste.css" crc="367452734" ref="mraveniste"/>
@@ -48,7 +48,7 @@
     <file name="csob-b.png" crc="4204735685" ref="index"/>
     <file name="kb-b.png" crc="244755700" ref="index"/>
   </folder>
-  <file name="index.html" crc="4075268417" mt="1413295199288" redirect="true"/>
-  <file name="office_power.html" crc="200387631" mt="1411506824885" redirect="true"/>
+  <file name="index.html" crc="132118575" mt="1413308083118" redirect="true"/>
+  <file name="office_power.html" crc="4221116420" mt="1413308106373" redirect="true"/>
   <file name="mraveniste.html" crc="362314396" mt="1411506285228" redirect="true"/>
 </manifest>
