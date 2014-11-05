@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>ŠKODA AUTO by manica</title>
@@ -12,10 +13,15 @@
 			<script src="js/html5shiv.min.js"></script>
 			<script src="js/respond.min.js"></script>
 		<![endif]-->
+		<script>
+			// Picture element HTML5 shiv
+			document.createElement("picture");
+		</script>
+		<script src="js/picturefill.min.js"></script>
 	</head>
 	<body>
 		<!-- header -->
-		<div class="clearfix">
+		<div class="header clearfix">
 			<div class="pull-left">
 				<img class="hidden-xs hidden-sm" src="img/logo-md.png" />
 				<img class="hidden-md hidden-lg" src="img/logo-sm.png" />
@@ -31,7 +37,7 @@
 			</div>
 		</div>
 		<!-- main menu -->
-		<div class="collapse navbar-collapse navbar-default hidden-sm hidden-md hidden-lg" id="bs-example-navbar-collapse-1">
+		<div class="menu-nav collapse navbar-collapse navbar-default navbar-static-top hidden-sm hidden-md hidden-lg" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				<li><a href="#">Models</a></li>
 				<li><a href="#">Owners</a></li>
@@ -51,22 +57,43 @@
 			<!-- wrapper for slides -->
 			<div class="carousel-inner">
 				<div class="item active">
-					<img src="img/carousel-1-lg.jpg" />
-					<div class="carousel-caption">
+					<picture>
+						<!--[if IE 9]><video style="display:none;"><![endif]-->
+						<source srcset="img/banner-1-lg.jpg" media="(min-width: 1200px)">
+						<source srcset="img/banner-1-md.jpg" media="(min-width: 992px)">
+						<source srcset="img/banner-1-sm.jpg" media="(min-width: 768px)">
+						<!--[if IE 9]></video><![endif]-->
+						<img class="img-responsive" srcset="img/banner-1-sm.jpg" />
+					</picture>
+					<div class="carousel-caption hidden-xs"">
 						<h1>Banner title</h1>
 						<h3><i>Tagline for the Banner</i></h3>
 					</div>
 				</div>
 				<div class="item">
-					<img src="img/carousel-2-lg.jpg" />
-					<div class="carousel-caption">
+					<picture>
+						<!--[if IE 9]><video style="display:none;"><![endif]-->
+						<source srcset="img/banner-2-lg.jpg" media="(min-width: 1200px)">
+						<source srcset="img/banner-2-md.jpg" media="(min-width: 992px)">
+						<source srcset="img/banner-2-sm.jpg" media="(min-width: 768px)">
+						<!--[if IE 9]></video><![endif]-->
+						<img class="img-responsive" srcset="img/banner-2-sm.jpg" />
+					</picture>
+					<div class="carousel-caption hidden-xs"">
 						<h1>Banner title</h1>
 						<h3><i>Tagline for the Banner</i></h3>
 					</div>
 				</div>
 				<div class="item">
-					<img src="img/carousel-3-lg.jpg" />
-					<div class="carousel-caption">
+					<picture>
+						<!--[if IE 9]><video style="display:none;"><![endif]-->
+						<source srcset="img/banner-3-lg.jpg" media="(min-width: 1200px)">
+						<source srcset="img/banner-3-md.jpg" media="(min-width: 992px)">
+						<source srcset="img/banner-3-sm.jpg" media="(min-width: 768px)">
+						<!--[if IE 9]></video><![endif]-->
+						<img class="img-responsive" srcset="img/banner-3-sm.jpg" />
+					</picture>
+					<div class="carousel-caption hidden-xs"">
 						<h1>Banner title</h1>
 						<h3><i>Tagline for the Banner</i></h3>
 					</div>
@@ -79,6 +106,10 @@
 			<a class="right carousel-control" href="#carousel-title" role="button" data-slide="next">
 				<span class="glyphicon glyphicon-chevron-right"></span>
 			</a>
+		</div>
+		<div class="container menu-inverse hidden-sm hidden-md hidden-lg">
+			<h2>Banner title</h2>
+			<h3><i>Tagline for the Banner</i></h3>
 		</div>
 		<div class="container">
 			<!-- car specification and map for large screens only -->
@@ -129,9 +160,23 @@
 			<!-- car specification and map for small screens and mobile devices only -->
 			<div class="hidden-md hidden-lg">
 				<br />
-				<div class="row">
+				<div class="row hidden-xs">
 					<div id="mapLarge" class="col-sm-12 well no-padding" style="height:300px;"></div>
 				</div>
+				<div class="row hidden-sm hidden-md hidden-lg">
+					<div class="col-xs-12 address">
+						<p>This model close to you now</p>
+						<strong>Street name and number<br />
+						Name of the city<br />
+						Post code<br />
+						Country</strong><br />
+						<br />
+						<a href="#"><i>Open in Google Maps</i></a><br />
+						<br />
+						<button type="button" class="btn btn-primary btn-lg"><i class="fa fa-car"></i> Test drive</button>
+					</div>
+				</div>
+				<br />
 				<div class="row">
 					<div class="col-sm-6 no-padding-left">
 						<div class="well">
@@ -188,13 +233,34 @@
 				</ol>
 				<div class="carousel-inner">
 					<div class="item active">
-						<img src="img/carousel-1.jpg" />
+						<picture>
+							<!--[if IE 9]><video style="display:none;"><![endif]-->
+							<source srcset="img/carousel-1-lg.jpg" media="(min-width: 1200px)">
+							<source srcset="img/carousel-1-md.jpg" media="(min-width: 992px)">
+							<source srcset="img/carousel-1-sm.jpg" media="(min-width: 768px)">
+							<!--[if IE 9]></video><![endif]-->
+							<img class="img-responsive" srcset="img/carousel-1-sm.jpg" />
+						</picture>
 					</div>
 					<div class="item">
-						<img src="img/carousel-2.jpg" />
+						<picture>
+							<!--[if IE 9]><video style="display:none;"><![endif]-->
+							<source srcset="img/carousel-2-lg.jpg" media="(min-width: 1200px)">
+							<source srcset="img/carousel-2-md.jpg" media="(min-width: 992px)">
+							<source srcset="img/carousel-2-sm.jpg" media="(min-width: 768px)">
+							<!--[if IE 9]></video><![endif]-->
+							<img class="img-responsive" srcset="img/carousel-2-sm.jpg" />
+						</picture>
 					</div>
 					<div class="item">
-						<img src="img/carousel-3.jpg" />
+						<picture>
+							<!--[if IE 9]><video style="display:none;"><![endif]-->
+							<source srcset="img/carousel-3-lg.jpg" media="(min-width: 1200px)">
+							<source srcset="img/carousel-3-md.jpg" media="(min-width: 992px)">
+							<source srcset="img/carousel-3-sm.jpg" media="(min-width: 768px)">
+							<!--[if IE 9]></video><![endif]-->
+							<img class="img-responsive" srcset="img/carousel-3-sm.jpg" />
+						</picture>
 					</div>
 				</div>
 				<a class="left carousel-control" href="#carousel-model-features" role="button" data-slide="prev">
@@ -230,14 +296,19 @@
 			<!-- exterior -->
 			<p class="header-line"><span class="text">Exterior</span></p>
 			<div class="row">
-				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img1.jpg" /></a></div>
-				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img2.jpg" /></a></div>
-				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img3.jpg" /></a></div>
-				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img4.jpg" /></a></div>
-				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img5.jpg" /></a></div>
-				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img6.jpg" /></a></div>
-				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img7.jpg" /></a></div>
-				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img8.jpg" /></a></div>
+				<div class="col-xs-6 col-sm-3">
+					<a href="#" class="thumbnail">
+						<img class="img-responsive" src="img/img1-sm.jpg" />
+						
+					</a>
+				</div>
+				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img2-sm.jpg" /></a></div>
+				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img3-sm.jpg" /></a></div>
+				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img4-sm.jpg" /></a></div>
+				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img5-sm.jpg" /></a></div>
+				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img6-sm.jpg" /></a></div>
+				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img7-sm.jpg" /></a></div>
+				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img8-sm.jpg" /></a></div>
 			</div>
 			<br />
 			<!-- interior -->
@@ -380,28 +451,28 @@
 			<!-- awards -->
 			<p class="header-line"><span class="text">Awards</span></p>
 			<div class="row">
-				<div class="col-xs-12 col-sm-3 center">
+				<div class="col-xs-6 col-sm-3 center">
 					<div class="thumbnail">
 						<img src="img/award-year1.png" /><br />
 						<strong>Title of the award</strong><br />
 						<small>Short description of the award</small>
 					</div>
 				</div>
-				<div class="col-xs-12 col-sm-3 center">
+				<div class="col-xs-6 col-sm-3 center">
 					<div class="thumbnail">
 						<img src="img/award-year2.png" /><br />
 						<strong>Title of the award</strong><br />
 						<small>Short description of the award</small>
 					</div>
 				</div>
-				<div class="col-xs-12 col-sm-3 center">
+				<div class="col-xs-6 col-sm-3 center">
 					<div class="thumbnail">
 						<img class="img-responsive" src="img/award-year1.png" /><br />
 						<strong>Title of the award</strong><br />
 						<small>Short description of the award</small>
 					</div>
 				</div>
-				<div class="col-xs-12 col-sm-3 center">
+				<div class="col-xs-6 col-sm-3 center">
 					<div class="thumbnail">
 						<img class="img-responsive" src="img/award-year2.png" /><br />
 						<strong>Title of the award</strong><br />
@@ -415,7 +486,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-4">
 					<div class="thumbnail promo">
-						<img class="img-responsive" src="img/img10.png" />
+						<img class="img-responsive" src="img/img10.jpg" />
 						<div class="caption">
 							<strong>Promotion title</strong><br />
 							<i>Tagline for the promotion</i><br />
@@ -503,6 +574,7 @@
 				<div style="display:inline-block;padding:10px;"><i class="fa fa-cogs fa-2x button-circle"></i><br /><small><strong>Car Configurator</strong></small></div>
 				<div style="display:inline-block;padding:10px;"><i class="fa fa-car fa-2x button-circle"></i><br /><small><strong>Test Drive</strong></small></div>
 				<div style="display:inline-block;padding:10px;"><i class="fa fa-map-marker fa-2x button-circle"></i><br /><small><strong>Dealer Locator</strong></small></div>
+				<br class="hidden-lg hidden-md hidden-sm" />
 				<div style="display:inline-block;padding:10px;"><i class="fa fa-wrench fa-2x button-circle"></i><br /><small><strong>Book a service</strong></small></div>
 				<div style="display:inline-block;padding:10px;"><i class="fa fa-calculator fa-2x button-circle"></i><br /><small><strong>Calculator</strong></small></div>
 			</div>
@@ -573,9 +645,9 @@
 			</div>
 			<hr />
 			<div class="container">
-				<h3>Quick Links</h3>
+				<h3>Quick Links &nbsp; <i class="fa fa-angle-up pointer visible-xs-inline" data-toggle="collapse" data-target="#quick-links" aria-expanded="true" aria-controls="quick-links" id="quick-links-angle"></i></h3>
 				<br />
-				<div class="row">
+				<div class="row collapse in" id="quick-links">
 					<div class="col-sm-3 col-xs-12">
 						<div class="list-group">
 							<a href="#" class="list-group-item">Lorem Ipsum</a>
