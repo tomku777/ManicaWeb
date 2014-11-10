@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ŠKODA AUTO by manica</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/skoda-auto.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.min.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+		<script>
+			// Picture element HTML5 shiv
+			document.createElement("picture");
+		</script>
+		<script src="js/picturefill.min.js"></script>
+	</head>
+	<body>
+		<!-- header -->
+		<div class="header clearfix">
+			<div class="pull-left">
+				<img class="hidden-xs hidden-sm" src="img/logo-md.png" />
+				<img class="hidden-md hidden-lg" src="img/logo-sm.png" />
+			</div>
+			<div class="pull-right">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<i class="fa fa-bars fa-2x"></i>
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+		</div>
+		<!-- main menu -->
+		<div class="menu-nav collapse navbar-collapse navbar-default navbar-static-top hidden-sm hidden-md hidden-lg" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li><a href="#">Models</a></li>
+				<li><a href="#">Owners</a></li>
+				<li><a href="#">Feet</a></li>
+				<li><a href="#">Finance</a></li>
+				<li><a href="#">Company</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="hidden-sm"><a href="#"><i class="fa fa-cogs"></i> Configurator</a></li>
+				<li class="hidden-sm"><a href="#"><i class="fa fa-car"></i> Test Drive</a></li>
+				<li class="hidden-sm"><a href="#"><i class="fa fa-map-marker"></i> Dealer Finder</a></li>
+				<li class="active"><a href="#">All Tools &amp; Services</a></li>
+			</ul>
+		</div>
+		<!-- banner large -->
+		<div id="carousel-title" class="carousel slide" data-ride="carousel">
+			<!-- wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<picture>
+						<!--[if IE 9]><video style="display:none;"><![endif]-->
+						<source srcset="img/banner-1-lg.jpg" media="(min-width: 1200px)">
+						<source srcset="img/banner-1-md.jpg" media="(min-width: 992px)">
+						<source srcset="img/banner-1-sm.jpg" media="(min-width: 768px)">
+						<!--[if IE 9]></video><![endif]-->
+						<img class="img-responsive" srcset="img/banner-1-sm.jpg" />
+					</picture>
+					<div class="carousel-caption hidden-xs"">
+						<h1>Banner title</h1>
+						<h3><i>Tagline for the Banner</i></h3>
+					</div>
+				</div>
+				<div class="item">
+					<picture>
+						<!--[if IE 9]><video style="display:none;"><![endif]-->
+						<source srcset="img/banner-2-lg.jpg" media="(min-width: 1200px)">
+						<source srcset="img/banner-2-md.jpg" media="(min-width: 992px)">
+						<source srcset="img/banner-2-sm.jpg" media="(min-width: 768px)">
+						<!--[if IE 9]></video><![endif]-->
+						<img class="img-responsive" srcset="img/banner-2-sm.jpg" />
+					</picture>
+					<div class="carousel-caption hidden-xs"">
+						<h1>Banner title</h1>
+						<h3><i>Tagline for the Banner</i></h3>
+					</div>
+				</div>
+				<div class="item">
+					<picture>
+						<!--[if IE 9]><video style="display:none;"><![endif]-->
+						<source srcset="img/banner-3-lg.jpg" media="(min-width: 1200px)">
+						<source srcset="img/banner-3-md.jpg" media="(min-width: 992px)">
+						<source srcset="img/banner-3-sm.jpg" media="(min-width: 768px)">
+						<!--[if IE 9]></video><![endif]-->
+						<img class="img-responsive" srcset="img/banner-3-sm.jpg" />
+					</picture>
+					<div class="carousel-caption hidden-xs"">
+						<h1>Banner title</h1>
+						<h3><i>Tagline for the Banner</i></h3>
+					</div>
+				</div>
+			</div>
+			<!-- controls -->
+			<a class="left carousel-control" href="#carousel-title" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#carousel-title" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+		<div class="container menu-inverse hidden-sm hidden-md hidden-lg">
+			<h2>Banner title</h2>
+			<h3><i>Tagline for the Banner</i></h3>
+		</div>
+		<div class="container">
+			<!-- car specification and map for large screens only -->
+			<div class="hidden-sm hidden-xs">
+				<div class="row" style="margin-top:-35px;">
+					<div class="col-md-4 col-sm-6 well left">
+						<div class="clearfix">
+							<i class="fa fa-beer fa-2x pull-left" style="color:#ddd;padding:10px 10px 0 0;"></i>
+							<div class="pull-left">
+								<small>Miles per gallon</small><br />
+								67.3 mpg
+							</div>
+						</div>
+						<hr />
+						<div class="clearfix">
+							<i class="fa fa-cloud fa-2x pull-left" style="color:#ddd;padding:10px 10px 0 0;"></i>
+							<div class="pull-left">
+								<small>CO<sub>2</sub> emmision</small><br />
+								109 g/km
+							</div>
+						</div>
+						<hr />
+						<div class="clearfix">
+							<i class="fa fa-suitcase fa-2x pull-left" style="color:#ddd;padding:10px 10px 0 0;"></i>
+							<div class="pull-left">
+								<small>Luggage space</small><br />
+								315 l / 1180 l
+							</div>
+						</div>
+						<br />
+						<button type="button" class="btn btn-primary btn-lg"><i class="fa fa-cogs"></i> Car Configurator</button>
+					</div>
+					<div id="mapSmall" class="col-md-4 well no-padding" style="height:300px;margin-top:-15px;"></div>
+					<div class="col-md-4 col-sm-6 well right">
+						<small>Total price</small><br />
+						&pound;56,087.00
+						<hr />
+						<strong>&pound;151.95</strong>
+						<hr />
+						<small>35 Monthly payments*</small><br />
+						<small><small>* Lorem ipsum dolor sit amet</small></small>
+						<br />
+						<br />
+						<button type="button" class="btn btn-primary btn-lg"><i class="fa fa-calculator"></i> Financial Calculator</button>
+					</div>
+				</div>
+			</div>
+			<!-- car specification and map for small screens and mobile devices only -->
+			<div class="hidden-md hidden-lg">
+				<br />
+				<div class="row hidden-xs">
+					<div id="mapLarge" class="col-sm-12 well no-padding" style="height:300px;"></div>
+				</div>
+				<div class="row hidden-sm hidden-md hidden-lg">
+					<div class="col-xs-12 address">
+						<p>This model close to you now</p>
+						<strong>Street name and number<br />
+						Name of the city<br />
+						Post code<br />
+						Country</strong><br />
+						<br />
+						<a href="#"><i>Open in Google Maps</i></a><br />
+						<br />
+						<button type="button" class="btn btn-primary btn-lg"><i class="fa fa-car"></i> Test drive</button>
+					</div>
+				</div>
+				<br />
+				<div class="row">
+					<div class="col-sm-6 no-padding-left">
+						<div class="well">
+							<div class="clearfix">
+								<i class="fa fa-beer fa-2x pull-left" style="color:#ddd;padding-top:10px;"></i>
+								<div class="pull-left">
+									<small>Miles per gallon</small><br />
+									67.3 mpg
+								</div>
+							</div>
+							<hr />
+							<div class="clearfix">
+								<i class="fa fa-cloud fa-2x pull-left" style="color:#ddd;padding-top:10px;"></i>
+								<div class="pull-left">
+									<small>CO<sub>2</sub> emmision</small><br />
+									109 g/km
+								</div>
+							</div>
+							<hr />
+							<div class="clearfix">
+								<i class="fa fa-suitcase fa-2x pull-left" style="color:#ddd;padding-top:10px;"></i>
+								<div class="pull-left">
+									<small>Luggage space</small><br />
+									315 l / 1180 l
+								</div>
+							</div>
+							<br />
+							<button type="button" class="btn btn-primary btn-lg"><i class="fa fa-cogs"></i> Car Configurator</button>
+						</div>
+					</div>
+					<div class="col-sm-6 no-padding-right">
+						<div class="well">
+							<small>Total price</small><br />
+							&pound;56,087.00
+							<hr />
+							<strong>&pound;151.95</strong>
+							<hr />
+							<small>35 Monthly payments*</small><br />
+							<small><small>* Lorem ipsum dolor sit amet</small></small>
+							<br />
+							<br />
+							<button type="button" class="btn btn-primary btn-lg"><i class="fa fa-calculator"></i> Financial Calculator</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- model features -->
+			<p class="header-line"><span class="text">Model Features</span></p>
+			<div id="carousel-model-features" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-model-features" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-model-features" data-slide-to="1"></li>
+					<li data-target="#carousel-model-features" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<picture>
+							<!--[if IE 9]><video style="display:none;"><![endif]-->
+							<source srcset="img/carousel-1-lg.jpg" media="(min-width: 1200px)">
+							<source srcset="img/carousel-1-md.jpg" media="(min-width: 992px)">
+							<source srcset="img/carousel-1-sm.jpg" media="(min-width: 768px)">
+							<!--[if IE 9]></video><![endif]-->
+							<img class="img-responsive" srcset="img/carousel-1-sm.jpg" />
+						</picture>
+					</div>
+					<div class="item">
+						<picture>
+							<!--[if IE 9]><video style="display:none;"><![endif]-->
+							<source srcset="img/carousel-2-lg.jpg" media="(min-width: 1200px)">
+							<source srcset="img/carousel-2-md.jpg" media="(min-width: 992px)">
+							<source srcset="img/carousel-2-sm.jpg" media="(min-width: 768px)">
+							<!--[if IE 9]></video><![endif]-->
+							<img class="img-responsive" srcset="img/carousel-2-sm.jpg" />
+						</picture>
+					</div>
+					<div class="item">
+						<picture>
+							<!--[if IE 9]><video style="display:none;"><![endif]-->
+							<source srcset="img/carousel-3-lg.jpg" media="(min-width: 1200px)">
+							<source srcset="img/carousel-3-md.jpg" media="(min-width: 992px)">
+							<source srcset="img/carousel-3-sm.jpg" media="(min-width: 768px)">
+							<!--[if IE 9]></video><![endif]-->
+							<img class="img-responsive" srcset="img/carousel-3-sm.jpg" />
+						</picture>
+					</div>
+				</div>
+				<a class="left carousel-control" href="#carousel-model-features" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="right carousel-control" href="#carousel-model-features" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+			<h1><strong>First Feature title and/or short USP</strong></h1>
+			<p class="lead">This area contains a short description of the feature and highlight all relevant keywords and/or USP. Here can be a link.</p>
+			<br />
+			<p class="header-line"><span class="img"><i class="fa fa-download fa-2x button-circle"></i><br />Download File<br /><small>File size 0.0 Mb</small></span></p>
+		</div>
+		<!-- sub menu -->
+		<div class="menu menu-inverse">
+			<div class="container center">
+				<h2>More on Fabia</h2>
+				<div class="row">
+					<div class="col"><a href="#">Exterior</a></div>
+					<div class="col"><a href="#">Interior</a></div>
+					<div class="col"><a href="#">Design</a></div>
+					<div class="col"><a href="#">Awards</a></div>
+					<div class="col"><a href="#">Promotions</a></div>
+					<div class="col"><a href="#">Events</a></div>
+					<div class="col"><a href="#">Tools</a></div>
+					<div class="col"><a href="#">Fleet</a></div>
+				</div>
+			</div>
+		</div>
+		<br />
+		<div class="container">
+			<!-- exterior -->
+			<p class="header-line"><span class="text">Exterior</span></p>
+			<div class="row">
+				<div class="col-xs-6 col-sm-3">
+					<a href="#" class="thumbnail">
+						<img class="img-responsive" src="img/img1-sm.jpg" />
+						
+					</a>
+				</div>
+				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img2-sm.jpg" /></a></div>
+				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img3-sm.jpg" /></a></div>
+				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img4-sm.jpg" /></a></div>
+				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img5-sm.jpg" /></a></div>
+				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img6-sm.jpg" /></a></div>
+				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img7-sm.jpg" /></a></div>
+				<div class="col-xs-6 col-sm-3"><a href="#" class="thumbnail"><img class="img-responsive" src="img/img8-sm.jpg" /></a></div>
+			</div>
+			<br />
+			<!-- interior -->
+			<p class="header-line"><span class="text">Interior</span></p>
+		</div>
+		<div class="menu-inverse">
+			<div class="container">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TrYCtPgvgnA" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		<br />
+		<div class="container">
+			<!-- design -->
+			<p class="header-line"><span class="text">Design</span></p>
+			<!-- design for large screens only -->
+			<table class="table table-bordered hidden-xs">
+				<thead>
+					<tr>
+						<th>Title 1</th>
+						<th>Title 2</th>
+						<th>Title 3</th>
+						<th>Title 4</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Text</td>
+						<td>Text</td>
+						<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+						<td>Text</td>
+					</tr>
+					<tr>
+						<td>Text</td>
+						<td>Text</td>
+						<td>Sed posuere accumsan viverra.</td>
+						<td>Text</td>
+					</tr>
+					<tr>
+						<td>Text</td>
+						<td>Text</td>
+						<td>Praesent urna nibh, ullamcorper vitae tincidunt sit amet, venenatis at odio.</td>
+						<td>Text</td>
+					</tr>
+					<tr>
+						<td>Text</td>
+						<td>Text</td>
+						<td>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer nec fermentum dui.</td>
+						<td>Text</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- design for small screens and mobile devices only -->
+			<table class="table table-striped hidden-sm hidden-md hidden-lg">
+				<tbody>
+					<tr>
+						<td>
+							<div class="row">
+								<div class="col-xs-2">Title 1</div>
+								<div class="col-xs-10">Text</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-2">Title 2</div>
+								<div class="col-xs-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-2">Title 3</div>
+								<div class="col-xs-10">Text</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-2">Title 4</div>
+								<div class="col-xs-10">Text</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="row">
+								<div class="col-xs-2">Title 1</div>
+								<div class="col-xs-10">Text</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-2">Title 2</div>
+								<div class="col-xs-10">Sed posuere accumsan viverra.</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-2">Title 3</div>
+								<div class="col-xs-10">Text</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-2">Title 4</div>
+								<div class="col-xs-10">Text</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="row">
+								<div class="col-xs-2">Title 1</div>
+								<div class="col-xs-10">Text</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-2">Title 2</div>
+								<div class="col-xs-10">Praesent urna nibh, ullamcorper vitae tincidunt sit amet, venenatis at odio.</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-2">Title 3</div>
+								<div class="col-xs-10">Text</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-2">Title 4</div>
+								<div class="col-xs-10">Text</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="row">
+								<div class="col-xs-2">Title 1</div>
+								<div class="col-xs-10">Text</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-2">Title 2</div>
+								<div class="col-xs-10">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer nec fermentum dui.</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-2">Title 3</div>
+								<div class="col-xs-10">Text</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-2">Title 4</div>
+								<div class="col-xs-10">Text</div>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<br />
+			<!-- awards -->
+			<p class="header-line"><span class="text">Awards</span></p>
+			<div class="row">
+				<div class="col-xs-6 col-sm-3 center">
+					<div class="thumbnail">
+						<img src="img/award-year1.png" /><br />
+						<strong>Title of the award</strong><br />
+						<small>Short description of the award</small>
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-3 center">
+					<div class="thumbnail">
+						<img src="img/award-year2.png" /><br />
+						<strong>Title of the award</strong><br />
+						<small>Short description of the award</small>
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-3 center">
+					<div class="thumbnail">
+						<img class="img-responsive" src="img/award-year1.png" /><br />
+						<strong>Title of the award</strong><br />
+						<small>Short description of the award</small>
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-3 center">
+					<div class="thumbnail">
+						<img class="img-responsive" src="img/award-year2.png" /><br />
+						<strong>Title of the award</strong><br />
+						<small>Short description of the award</small>
+					</div>
+				</div>
+			</div>
+			<br />
+			<!-- latest promotions -->
+			<p class="header-line"><span class="text">Latest Promotions</span></p>
+			<div class="row">
+				<div class="col-xs-12 col-sm-4">
+					<div class="thumbnail promo">
+						<img class="img-responsive" src="img/img10.jpg" />
+						<div class="caption">
+							<strong>Promotion title</strong><br />
+							<i>Tagline for the promotion</i><br />
+							<small>With 0% APR representative and up to 3 years free servicing</small>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<div class="thumbnail promo">
+						<img class="img-responsive" src="img/img11.jpg" />
+						<div class="caption">
+							<strong>Promotion title</strong><br />
+							<i>Tagline for the promotion</i><br />
+							<small>With 0% APR representative and up to 3 years free servicing</small>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<div class="thumbnail promo">
+						<img class="img-responsive" src="img/img12.jpg" />
+						<div class="caption">
+							<strong>Promotion title</strong><br />
+							<i>Tagline for the promotion</i><br />
+							<small>With 0% APR representative and up to 3 years free servicing</small>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 center">
+					<button type="button" class="btn btn-primary btn-lg">All our promotions</button>
+				</div>
+			</div>
+			<br />
+			<!-- upcoming events -->
+			<p class="header-line"><span class="text">Upcoming Events</span></p>
+			<div class="row">
+				<div class="col-xs-12 col-sm-4">
+					<div class="thumbnail promo">
+						<img src="img/event1.jpg" />
+						<div class="caption clearfix">
+							<div class="pull-left">
+								<i class="fa fa-calendar fa-3x"></i>
+							</div>
+							<div class="pull-left">
+								<strong>Event title</strong><br />
+								<i>Tagline for the event</i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<div class="thumbnail promo">
+						<img src="img/event2.jpg" />
+						<div class="caption clearfix">
+							<div class="pull-left">
+								<i class="fa fa-calendar fa-3x"></i>
+							</div>
+							<div class="pull-left">
+								<strong>Event title</strong><br />
+								<i>Tagline for the event</i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<div class="thumbnail promo">
+						<img src="img/event3.jpg" />
+						<div class="caption clearfix">
+							<div class="pull-left">
+								<i class="fa fa-calendar fa-3x"></i>
+							</div>
+							<div class="pull-left">
+								<strong>Event title</strong><br />
+								<i>Tagline for the event</i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 center">
+					<button type="button" class="btn btn-primary btn-lg">All events</button>
+				</div>
+			</div>
+			<br />
+			<br />
+			<div class="row center">
+				<div style="display:inline-block;padding:10px;"><i class="fa fa-cogs fa-2x button-circle"></i><br /><small><strong>Car Configurator</strong></small></div>
+				<div style="display:inline-block;padding:10px;"><i class="fa fa-car fa-2x button-circle"></i><br /><small><strong>Test Drive</strong></small></div>
+				<div style="display:inline-block;padding:10px;"><i class="fa fa-map-marker fa-2x button-circle"></i><br /><small><strong>Dealer Locator</strong></small></div>
+				<br class="hidden-lg hidden-md hidden-sm" />
+				<div style="display:inline-block;padding:10px;"><i class="fa fa-wrench fa-2x button-circle"></i><br /><small><strong>Book a service</strong></small></div>
+				<div style="display:inline-block;padding:10px;"><i class="fa fa-calculator fa-2x button-circle"></i><br /><small><strong>Calculator</strong></small></div>
+			</div>
+			<!-- fleet -->
+			<p class="header-line"><span class="text">Fleet</span></p>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					<div class="thumbnail">
+						<img class="img-responsive" src="img/img20.jpg" />
+						<div class="caption">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacus orci, varius vitae mauris non, semper finibus turpis. Donec elementum massa neque, porttitor fringilla nulla sodales in.</p>
+							<p><u>Ut enim ad minim veniam</u></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6">
+					<div class="thumbnail">
+						<img class="img-responsive" src="img/img21.jpg" />
+						<div class="caption">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacus orci, varius vitae mauris non, semper finibus turpis. Donec elementum massa neque, porttitor fringilla nulla sodales in.</p>
+							<p><u>Ut enim ad minim veniam</u></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br />
+			<div class="row center">
+				<div style="display:inline-block;padding:10px;"><i class="fa fa-angle-up fa-2x button-circle"></i><br /><small><strong>Back to Top</strong></small></div>
+			</div>
+		</div>
+		<!-- foot -->
+		<div class="foot">
+			<div class="container">
+				<h3>Join our Newsletter</h3>
+				<p><small>By subscribing to out mailing list you will always be updated with the latest news for Škoda.<br />Don't worry we hate Spam!</small></p>
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Enter here your email address" />
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="button">Sign Up</button>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr />
+			<div class="container">
+				<h3>Get Škoda apps</h3>
+				<p><small>Download our set of Apps to make more with your own Škoda.</small></p>
+				<div class="row">
+					<div class="col-xs-12 center-block">
+						<img src="img/app-stores.png" />
+					</div>
+				</div>
+			</div>
+			<hr />
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 center-block">
+						<span style="padding:10px;white-space:nowrap;"><i class="fa fa-cogs"></i> &nbsp; Car Configurator</span>
+						<span style="padding:10px;white-space:nowrap;"><i class="fa fa-car"></i> &nbsp; Test Drive</span>
+						<span style="padding:10px;white-space:nowrap;"><i class="fa fa-map-marker"></i> &nbsp; Dealer Finder</span>
+						<span style="padding:10px;white-space:nowrap;"><i class="fa fa-wrench"></i> &nbsp; Book a service</span>
+						<span style="padding:10px;white-space:nowrap;"><i class="fa fa-calculator"></i> &nbsp; Calculator</span>
+					</div>
+				</div>
+			</div>
+			<hr />
+			<div class="container">
+				<h3>Quick Links &nbsp; <i class="fa fa-angle-up pointer visible-xs-inline" data-toggle="collapse" data-target="#quick-links" aria-expanded="true" aria-controls="quick-links" id="quick-links-angle"></i></h3>
+				<br />
+				<div class="row collapse in" id="quick-links">
+					<div class="col-sm-3 col-xs-12">
+						<div class="list-group">
+							<a href="#" class="list-group-item">Lorem Ipsum</a>
+							<a href="#" class="list-group-item">Lorem Ipsum dolor</a>
+							<a href="#" class="list-group-item">Lorem</a>
+							<a href="#" class="list-group-item">Lorem</a>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-12">
+						<div class="list-group">
+							<a href="#" class="list-group-item">Lorem Ipsum</a>
+							<a href="#" class="list-group-item">Lorem Ipsum dolor</a>
+							<a href="#" class="list-group-item">Lorem</a>
+							<a href="#" class="list-group-item">Lorem</a>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-12">
+						<div class="list-group">
+							<a href="#" class="list-group-item">Lorem Ipsum</a>
+							<a href="#" class="list-group-item">Lorem Ipsum dolor</a>
+							<a href="#" class="list-group-item">Lorem</a>
+							<a href="#" class="list-group-item">Lorem</a>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-12">
+						<div class="list-group">
+							<a href="#" class="list-group-item">Lorem Ipsum</a>
+							<a href="#" class="list-group-item">Lorem Ipsum dolor</a>
+							<a href="#" class="list-group-item">Lorem</a>
+							<a href="#" class="list-group-item">Lorem</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr />
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-3 col-md-2 icon-row">
+						<i class="fa fa-globe"></i> &nbsp; Change country
+					</div>
+					<div class="col-xs-12 col-sm-3 col-md-2 icon-row">
+						<i class="fa fa-language"></i> &nbsp; Change language
+					</div>
+					<div class="col-xs-12 col-sm-3 col-md-3 col-sm-offset-3 col-md-offset-5 icon-row">
+						<span style="padding:0 10px;"><i class="fa fa-twitter fa-2x"></i></span>
+						<span style="padding:0 10px;"><i class="fa fa-facebook fa-2x"></i></span>
+						<span style="padding:0 10px;"><i class="fa fa-youtube fa-2x"></i></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- footer bar -->
+		<div class="footer">
+			<div class="container">
+				<div class="pull-left"><small>&copy; 2014 Copyright Škoda Auto a.s.</small></div>
+				<div class="pull-right"><small>| COOKIES | SITEMAP | TERMS &amp; CONDITIONS |</small></div>
+			</div>
+		</div>
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzD0tqNKPNBDiPDA95XWlaoWHg_ezSw3c&sensor=true"></script>
+		<script src="http://www.google.com/jsapi"></script>
+		<script src="js/skoda-auto.js"></script>
+	</body>
+</html>
