@@ -1,54 +1,137 @@
-<manifest alg="2" build="30" opt="true" iceEnabled="true">
+<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.manica.cz" resolutions="1x" timestamp="1462358152385">
   <folder name="css">
-    <file name="site_global.css" crc="4023935739"/>
-    <file name="office_power.css" crc="4187606905" ref="office_power"/>
-    <file name="iefonts_office_power.css" crc="3828245624" ref="office_power"/>
-    <file name="index.css" crc="3770694641" ref="index"/>
-    <file name="iefonts_index.css" crc="4078171901" ref="index"/>
-    <file name="mraveniste.css" crc="143911273" ref="mraveniste"/>
-    <file name="iefonts_mraveniste.css" crc="367452734" ref="mraveniste"/>
+    <file name="site_global.css" crc="3857587926"/>
+    <file name="master_a-master.css" crc="321525473" ref="index"/>
+    <file name="index.css" crc="4078666911" ref="index"/>
+    <file name="iefonts_index.css" crc="350881900" ref="index"/>
   </folder>
   <folder name="assets">
-    <file name="mca-officepower-web.muse" crc="3936293223" mt="1411554388000"/>
+    <file name="shutterstock_v1940254_clipchamp_keep.mp4" crc="3819683722" seo="true" mt="1457077592000"/>
+    <file name="shutterstock_v1940254_clipchamp_keep.webm" crc="439426530" seo="true" mt="1457078094000"/>
+    <file name="img-pattern-bgd.png" crc="512069434" seo="true" mt="1459600066000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:office_power:mraveniste"/>
-    <file name="museutils.js" crc="4291592202" ref="index:office_power:mraveniste"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="index:office_power"/>
-    <file name="jquery.tobrowserwidth.js" crc="3842421675" ref="index:office_power:mraveniste"/>
-    <file name="jquery.scrolleffects.js" crc="4006931061" ref="index:office_power"/>
-    <file name="pie.js" crc="3827607177" ref="index:office_power"/>
-    <file name="jquery.watch.js" crc="4068933136" ref="index:office_power:mraveniste"/>
+    <file name="jquery-1.8.3.min.js" crc="207176553" ref="phone>index:tablet>index:index"/>
+    <file name="museutils.js" crc="3790713428" ref="phone>index:tablet>index:index"/>
+    <file name="whatinput.js" crc="84559013" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.watch.js" crc="4244854265" ref="phone>index:tablet>index:index"/>
+    <file name="pie.js" crc="3827607177" ref="phone>index:index"/>
+    <file name="webpro.js" crc="329496574" ref="phone>index:index"/>
+    <file name="musewpslideshow.js" crc="394033048" ref="phone>index:index"/>
+    <file name="jquery.museoverlay.js" crc="4265131668" ref="phone>index:index"/>
+    <file name="touchswipe.js" crc="497316881" ref="phone>index:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3918880840" ref="phone>index:index"/>
+    <file name="jquery.scrolleffects.js" crc="4219894366" ref="phone>index:index"/>
+    <file name="museredirect.js" crc="71780213" ref="tablet>index:index"/>
   </folder>
   <folder name="images">
-    <file name="bgd-1-u590-fr.png" crc="7550539" ref="index"/>
-    <file name="manica.png" crc="81063609" ref="index:office_power:mraveniste"/>
-    <file name="icon-next-white.png" crc="345251833" ref="index:office_power"/>
-    <file name="kukej-u103-fr.jpg" crc="3989865636" ref="index"/>
-    <file name="user.png" crc="4023531507" ref="index"/>
-    <file name="bulb.png" crc="498539156" ref="index"/>
-    <file name="zhodnoceni.png" crc="18084851" ref="index"/>
-    <file name="pr.png" crc="135420283" ref="index"/>
-    <file name="wheel.png" crc="3955462583" ref="index"/>
-    <file name="cez-b.png" crc="3803711048" ref="index"/>
-    <file name="ave-b.png" crc="4148969384" ref="index"/>
-    <file name="rwe-b.png" crc="462293977" ref="index"/>
-    <file name="ms-b.png" crc="251714632" ref="index"/>
-    <file name="mall-b.png" crc="172293973" ref="index"/>
-    <file name="equa-b.png" crc="3985346165" ref="index"/>
-    <file name="img-logo.png" crc="4099757998" ref="office_power"/>
-    <file name="op.png" crc="413006479" ref="office_power"/>
-    <file name="bulb-w.png" crc="4206190253" ref="office_power"/>
-    <file name="circle-color-small.png" crc="444294605" ref="office_power"/>
-    <file name="mail-mall-u938-fr.jpg" crc="3954240716" ref="office_power"/>
-    <file name="free-ipad-mockup-u957-fr.jpg" crc="436889045" ref="office_power"/>
-    <file name="cez-mail-u947-fr.jpg" crc="453213047" ref="office_power"/>
-    <file name="quotation.png" crc="4152915139" ref="office_power"/>
-    <file name="pasted image 281x66.jpg" crc="4031084689" ref="mraveniste"/>
-    <file name="csob-b.png" crc="4204735685" ref="index"/>
-    <file name="kb-b.png" crc="244755700" ref="index"/>
+    <file name="ic_menu_black_24px.svg" crc="4148890735" ref="phone>index"/>
+    <file name="ic_menu_black_24px_poster_u16174.png" crc="3998337106" ref="phone>index"/>
+    <file name="img-mca-web-mravenci-bgd-u5065-fr.png" crc="3960810792" ref="phone>index"/>
+    <file name="mca-logo-symbol.svg" crc="340148463" ref="phone>index:index"/>
+    <file name="mca-logo-symbol_poster_u11828.png" crc="3923572662" ref="phone>index:index"/>
+    <file name="pasted-svg-43154x31.svg" crc="3824061902" ref="phone>index:index"/>
+    <file name="pasted svg 43154x31_poster_.png" crc="4125290808" ref="phone>index"/>
+    <file name="pasted-svg-220764x220.svg" crc="4062725262" ref="phone>index:index"/>
+    <file name="pasted svg 220764x220_poster_.png" crc="397391373" ref="phone>index"/>
+    <file name="pasted-svg-300x299.svg" crc="3999055311" ref="phone>index:index"/>
+    <file name="pasted svg 300x299_poster_.png" crc="3929648598" ref="phone>index"/>
+    <file name="pasted-svg-300x300.svg" crc="437321897" ref="phone>index:index"/>
+    <file name="pasted svg 300x300_poster_.png" crc="3849795261" ref="phone>index"/>
+    <file name="pasted-svg-220764x2202.svg" crc="499600444" ref="phone>index:index"/>
+    <file name="pasted svg 220764x220_poster_2.png" crc="4290697806" ref="phone>index"/>
+    <file name="pasted-svg-220763x220.svg" crc="70116712" ref="phone>index:index"/>
+    <file name="pasted svg 220763x220_poster_.png" crc="234212490" ref="phone>index"/>
+    <file name="mca-logo-symbol-svetly.svg" crc="78265890" ref="phone>index:index"/>
+    <file name="mca-logo-symbol-svetly_poster_u11836.png" crc="507926147" ref="phone>index:index"/>
+    <file name="pasted-svg-162358x121.svg" crc="3948230732" ref="phone>index:index"/>
+    <file name="pasted svg 162358x121_poster_.png" crc="473852987" ref="phone>index"/>
+    <file name="img-op-bg.jpg" crc="3923105593" ref="phone>index:index"/>
+    <file name="pasted-svg-3348x52.svg" crc="4084086356" ref="phone>index:index"/>
+    <file name="pasted svg 3348x52_poster_.png" crc="357458594" ref="phone>index"/>
+    <file name="blank.gif" crc="4208392903" ref="phone>index:index"/>
+    <file name="tomas kutej cb.jpg" crc="3909572899" seo="true" ref="phone>index"/>
+    <file name="jan moles.jpg" crc="314847839" seo="true" ref="phone>index"/>
+    <file name="hel jetelova.jpg" crc="3899767299" seo="true" ref="phone>index"/>
+    <file name="roman cabalek.jpg" crc="438284734" seo="true" ref="phone>index"/>
+    <file name="matej resl.jpg" crc="3841790790" seo="true" ref="phone>index"/>
+    <file name="miroslav novak.jpg" crc="3815821192" seo="true" ref="phone>index"/>
+    <file name="cb-anicka.jpg" crc="497013740" seo="true" ref="phone>index"/>
+    <file name="eva fortova.jpg" crc="3835879443" seo="true" ref="phone>index"/>
+    <file name="jitka koubalikova cb.jpg" crc="159121321" seo="true" ref="phone>index"/>
+    <file name="loading.gif" crc="3815509949" ref="phone>index:index"/>
+    <file name="allianz_logo.svg" crc="402883693" ref="phone>index:index"/>
+    <file name="allianz_logo_poster_.png" crc="470081199" ref="phone>index"/>
+    <file name="img-ave-logo.svg" crc="4207719388" ref="phone>index:index"/>
+    <file name="img-ave-logo_poster_.png" crc="529198885" ref="phone>index"/>
+    <file name="img-cez-logo.svg" crc="4022307687" ref="phone>index:index"/>
+    <file name="img-cez-logo_poster_.png" crc="3998786648" ref="phone>index"/>
+    <file name="img-csob-logo.svg" crc="280018904" ref="phone>index:index"/>
+    <file name="img-csob-logo_poster_.png" crc="370649953" ref="phone>index"/>
+    <file name="img-dpd-logo.svg" crc="4132650180" ref="phone>index:index"/>
+    <file name="img-dpd-logo_poster_.png" crc="491142224" ref="phone>index"/>
+    <file name="equa-bank_logo.png" crc="3817779822" seo="true" ref="phone>index"/>
+    <file name="general-electric-logo-vector126x126.png" crc="4006538299" seo="true" ref="phone>index"/>
+    <file name="img-generali-logo.svg" crc="189866382" ref="phone>index:index"/>
+    <file name="img-generali-logo_poster_.png" crc="530057793" ref="phone>index"/>
+    <file name="logo čp.png" crc="4086146125" seo="true" ref="phone>index"/>
+    <file name="img-kb-logo.svg" crc="3845314830" ref="phone>index:index"/>
+    <file name="img-kb-logo_poster_.png" crc="379670819" ref="phone>index"/>
+    <file name="img-mall-logo.svg" crc="4131910934" ref="phone>index:index"/>
+    <file name="img-mall-logo_poster_.png" crc="100768901" ref="phone>index"/>
+    <file name="img-rwe-logo.svg" crc="287697507" ref="phone>index:index"/>
+    <file name="img-rwe-logo_poster_.png" crc="338201169" ref="phone>index"/>
+    <file name="img-zoo-logo.svg" crc="3952952655" ref="phone>index:index"/>
+    <file name="img-zoo-logo_poster_.png" crc="465925166" ref="phone>index"/>
+    <file name="img-skoda-logo.svg" crc="4213753361" ref="phone>index:index"/>
+    <file name="img-skoda-logo_poster_.png" crc="4060561067" ref="phone>index"/>
+    <file name="pasted-svg-285899x66.svg" crc="4293133709" ref="phone>index:index"/>
+    <file name="pasted svg 285899x66_poster_.png" crc="257763517" ref="phone>index"/>
+    <file name="tomas kutej cb-crop-u15065.jpg" crc="278439227" ref="index"/>
+    <file name="jan moles-crop-u15107.jpg" crc="172865114" ref="index"/>
+    <file name="hel jetelova-crop-u15135.jpg" crc="3891462814" ref="index"/>
+    <file name="roman cabalek-crop-u15162.jpg" crc="4054312319" ref="index"/>
+    <file name="anna prochazkova-crop-u15190.jpg" crc="7326637" ref="index"/>
+    <file name="matej resl-crop-u15036.jpg" crc="3988063635" ref="index"/>
+    <file name="miroslav novak-crop-u15219.jpg" crc="428505175" ref="index"/>
+    <file name="eva fortova-crop-u15246.jpg" crc="3948112106" ref="index"/>
+    <file name="jitka koubalikova cb-crop-u15273.jpg" crc="181091255" ref="index"/>
+    <file name="tomas kutej cb-crop-u15071.jpg" crc="3822370669" ref="index"/>
+    <file name="jan moles-crop-u15113.jpg" crc="4253872157" ref="index"/>
+    <file name="hel jetelova-crop-u15141.jpg" crc="126123153" ref="index"/>
+    <file name="roman cabalek-crop-u15168.jpg" crc="135682196" ref="index"/>
+    <file name="anna prochazkova-crop-u15196.jpg" crc="449838865" ref="index"/>
+    <file name="matej resl-crop-u15042.jpg" crc="3890683463" ref="index"/>
+    <file name="miroslav novak-crop-u15225.jpg" crc="4088177573" ref="index"/>
+    <file name="eva fortova-crop-u15252.jpg" crc="49220975" ref="index"/>
+    <file name="jitka koubalikova cb-crop-u15279.jpg" crc="4285330553" ref="index"/>
+    <file name="img-zoo-logo_poster_u4969.png" crc="465925166" ref="index"/>
+    <file name="img-kb-logo_poster_u4945.png" crc="379670819" ref="index"/>
+    <file name="general-electric-logo-vector-u3398-fr.png" crc="3772627317" ref="index"/>
+    <file name="img-cez-logo_poster_u3822.png" crc="3923580143" ref="index"/>
+    <file name="allianz_logo_poster_u1870.png" crc="3919020914" ref="index"/>
+    <file name="img-skoda-logo_poster_u4983.png" crc="4060561067" ref="index"/>
+    <file name="img-mall-logo_poster_u4953.png" crc="100768901" ref="index"/>
+    <file name="img-generali-logo_poster_u4926.png" crc="530057793" ref="index"/>
+    <file name="img-csob-logo_poster_u3846.png" crc="26818319" ref="index"/>
+    <file name="img-ave-logo_poster_u3798.png" crc="233947848" ref="index"/>
+    <file name="img-rwe-logo_poster_u4961.png" crc="338201169" ref="index"/>
+    <file name="img-cp-logo-male.png" crc="398503446" ref="index"/>
+    <file name="equa-bank_logo-u3429-fr.png" crc="3916783438" ref="index"/>
+    <file name="img-dpd-logo_poster_u3862.png" crc="3943238482" ref="index"/>
+    <file name="img-mca-web-mravenci-bgd.jpg" crc="4159563370" ref="index"/>
   </folder>
-  <file name="index.html" crc="132118575" mt="1413308083118" redirect="true"/>
-  <file name="office_power.html" crc="4221116420" mt="1413308106373" redirect="true"/>
-  <file name="mraveniste.html" crc="362314396" mt="1411506285228" redirect="true"/>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="index.css" crc="4241999866" ref="tablet>index"/>
+    </folder>
+    <file name="index.html" crc="4080623646" seo="true" mt="1459602126076" redirect="false"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="410212916" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="442331737" seo="true" mt="1460506010112" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="4208925896" seo="true" mt="1460528803170" redirect="true"/>
 </manifest>
