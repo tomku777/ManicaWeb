@@ -1,9 +1,9 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.manica.cz" resolutions="1x" timestamp="1471982498779">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.manica.cz" resolutions="1x" timestamp="1474528167112">
   <folder name="css">
-    <file name="site_global.css" crc="159826235"/>
+    <file name="site_global.css" crc="87221826"/>
     <file name="master_a-master.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="384050784" ref="index"/>
-    <file name="iefonts_index.css" crc="4232112157" ref="index"/>
+    <file name="index.css" crc="136274863" ref="index"/>
+    <file name="iefonts_index.css" crc="4098399018" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="shutterstock_v1940254_clipchamp_keep.mp4" crc="3819683722" seo="true" mt="1457077592000"/>
@@ -100,16 +100,24 @@
     <file name="matej resl-crop-u15036.jpg" crc="3782853266" ref="index"/>
     <file name="miroslav novak-crop-u15219.jpg" crc="3818109843" ref="index"/>
     <file name="eva fortova-crop-u15246.jpg" crc="492993254" ref="index"/>
-    <file name="jitka koubalikova cb-crop-u15273.jpg" crc="3809506341" ref="index"/>
-    <file name="tomas kutej cb-crop-u15071.jpg" crc="4183349596" ref="index"/>
-    <file name="jan moles-crop-u15113.jpg" crc="4125261210" ref="index"/>
-    <file name="hel jetelova-crop-u15141.jpg" crc="271956079" ref="index"/>
-    <file name="roman cabalek-crop-u15168.jpg" crc="309066601" ref="index"/>
-    <file name="anna prochazkova-crop-u15196.jpg" crc="55745569" ref="index"/>
-    <file name="matej resl-crop-u15042.jpg" crc="3893015868" ref="index"/>
-    <file name="miroslav novak-crop-u15225.jpg" crc="4169747486" ref="index"/>
-    <file name="eva fortova-crop-u15252.jpg" crc="147629349" ref="index"/>
-    <file name="jitka koubalikova cb-crop-u15279.jpg" crc="3943831445" ref="index"/>
+    <file name="img-kuzela.jpg" crc="275485495" seo="true" ref="index"/>
+    <file name="img-mildnerova.jpg" crc="219706867" seo="true" ref="index"/>
+    <file name="img-nerudova.jpg" crc="3780926949" seo="true" ref="index"/>
+    <file name="img-sirucek.jpg" crc="265803105" seo="true" ref="index"/>
+    <file name="img-sresl.jpg" crc="4027501646" seo="true" ref="index"/>
+    <file name="tomas kutej cb-crop-u15071.jpg" crc="354877700" ref="index"/>
+    <file name="jan moles-crop-u15113.jpg" crc="4120032025" ref="index"/>
+    <file name="hel jetelova-crop-u15141.jpg" crc="275723519" ref="index"/>
+    <file name="roman cabalek-crop-u15168.jpg" crc="3859986237" ref="index"/>
+    <file name="anna prochazkova-crop-u15196.jpg" crc="3791004128" ref="index"/>
+    <file name="matej resl-crop-u15042.jpg" crc="321970290" ref="index"/>
+    <file name="miroslav novak-crop-u15225.jpg" crc="234200664" ref="index"/>
+    <file name="eva fortova-crop-u15252.jpg" crc="4276441849" ref="index"/>
+    <file name="img-kuzela-crop-u16624.jpg" crc="3926757471" ref="index"/>
+    <file name="img-mildnerova-crop-u16644.jpg" crc="4280042387" ref="index"/>
+    <file name="img-nerudova-crop-u16664.jpg" crc="3770352058" ref="index"/>
+    <file name="img-sirucek-crop-u16684.jpg" crc="3833003232" ref="index"/>
+    <file name="img-sresl-crop-u16704.jpg" crc="283068183" ref="index"/>
     <file name="img-zoo-logo_poster_u4969.png" crc="140683148" ref="index"/>
     <file name="img-kb-logo_poster_u4945.png" crc="388545437" ref="index"/>
     <file name="general-electric-logo-vector-u3398-fr.png" crc="308112931" ref="index"/>
@@ -130,13 +138,13 @@
     <folder name="css">
       <file name="index.css" crc="3948741586" ref="tablet>index"/>
     </folder>
-    <file name="index.html" crc="3875055058" seo="true" mt="1459602126076" redirect="false"/>
+    <file name="index.html" crc="452792684" seo="true" mt="1459602126076" redirect="false"/>
   </folder>
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="3943290937" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="36010104" seo="true" mt="1464286507473" redirect="true"/>
+    <file name="index.html" crc="3959375040" seo="true" mt="1464286507473" redirect="true"/>
   </folder>
-  <file name="index.html" crc="391159173" seo="true" mt="1464285348561" redirect="true"/>
+  <file name="index.html" crc="505521636" seo="true" mt="1474485213468" redirect="true"/>
 </manifest>

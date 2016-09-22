@@ -17,7 +17,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <link rel="canonical" href="http://www.manica.cz/index.html"/>
   <title>Home</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="../css/site_global.css?crc=159826235"/>
+  <link rel="stylesheet" type="text/css" href="../css/site_global.css?crc=87221826"/>
   <link rel="stylesheet" type="text/css" href="css/index.css?crc=3943290937" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -28,7 +28,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/open-sans:n7,n4,n3:all.js" type="text/javascript">\x3C/script>');
 </script>
   <script type="text/javascript">
-   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//use.typekit.net/ik/fHynjwmziZTHqgmlqQKd6hRcFmdStoGdKGxdOSPYHe9fe19Jhdj3IKSa5QwXwDFLwcjuZ2qoF2IujRBy52FKjDjh5Qicwc4KjDbXjDM3FQJ-JkG0dAB0-AFyOcFEOeuydc8RjPoRpKUaiaS0dAB0-AFyOcFEJ68zSem0OWFyd1w7fbRPSsMMeMw6M9GIQWmDZZMg1lLkzb9.js" type="text/javascript">\x3C/script>');
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//use.typekit.net/ik/O-JnwXr-c5WnboxoezlryX2ikJoztJTSjRt3wc3qdzbfe19Jhdj3IKSa5QwXwDFLwcjuZ2qoF2IujRBy52FKjDjh5Qicwc4KjDbXjDM3FQJ-JkG0dAB0-AFyOcFEOeuydc8RjPoRpKUaiaS0dAB0-AFyOcFEJ68zSem0OWFyd1w7fbRPSsMMeMw6M9GIQWmDZZMgGtp5z39.js" type="text/javascript">\x3C/script>');
 </script>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -498,11 +498,11 @@ Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.initWidget('#pamphletu16157', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_trigger',autoPlay:false,displayInterval:1000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu16157 */
 Muse.Utils.initWidget('#slideshowu5076', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:20000,slideLinkStopsSlideShow:false,transitionStyle:'horizontal',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'fullWidth',resumeAutoplay:false,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu5076 */
 Muse.Utils.initWidget('#slideshowu10509', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:3000,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu10509 */
-$('#u16295-bw').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[null,0]},{"in":[0,Infinity],"speed":[null,0]}]);/* scroll effect */
-$('#pamphletu16157').registerPositionScrollEffect([{"in":[-Infinity,7.65],"speed":[0,0]},{"in":[7.65,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u12650-3').registerBackgroundPositionScrollEffect([{"in":[-Infinity,571.15],"speed":[0,0.2]},{"in":[571.15,Infinity],"speed":[0,0.2]}]);/* scroll effect */
-$('#u13136').registerBackgroundPositionScrollEffect([{"in":[-Infinity,7106],"speed":[0,0.2]},{"in":[7106,Infinity],"speed":[0,0.2]}]);/* scroll effect */
-$('#u15796').registerPositionScrollEffect([{"in":[-Infinity,0.27],"speed":[0,0]},{"in":[0.27,Infinity],"speed":[0,0]}]);/* scroll effect */
+$('#u16295-bw').registerPositionScrollEffect([{"speed":[null,0],"in":[-Infinity,0]},{"speed":[null,0],"in":[0,Infinity]}]);/* scroll effect */
+$('#pamphletu16157').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,7.65]},{"speed":[0,0],"in":[7.65,Infinity]}]);/* scroll effect */
+$('#u12650-3').registerBackgroundPositionScrollEffect([{"speed":[0,0.2],"in":[-Infinity,571.15]},{"speed":[0,0.2],"in":[571.15,Infinity]}]);/* scroll effect */
+$('#u13136').registerBackgroundPositionScrollEffect([{"speed":[0,0.2],"in":[-Infinity,7106]},{"speed":[0,0.2],"in":[7106,Infinity]}]);/* scroll effect */
+$('#u15796').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,0.27]},{"speed":[0,0],"in":[0.27,Infinity]}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
