@@ -1,9 +1,9 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.manica.cz" resolutions="1x" timestamp="1474528167112">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.manica.cz" resolutions="1x" timestamp="1474619056021">
   <folder name="css">
-    <file name="site_global.css" crc="87221826"/>
+    <file name="site_global.css" crc="159826235"/>
     <file name="master_a-master.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="136274863" ref="index"/>
-    <file name="iefonts_index.css" crc="4098399018" ref="index"/>
+    <file name="index.css" crc="41975719" ref="index"/>
+    <file name="iefonts_index.css" crc="4127803515" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="shutterstock_v1940254_clipchamp_keep.mp4" crc="3819683722" seo="true" mt="1457077592000"/>
@@ -63,7 +63,12 @@
     <file name="miroslav novak.jpg" crc="3815821192" seo="true" ref="phone>index"/>
     <file name="cb-anicka.jpg" crc="497013740" seo="true" ref="phone>index"/>
     <file name="eva fortova.jpg" crc="3835879443" seo="true" ref="phone>index"/>
-    <file name="jitka koubalikova cb.jpg" crc="159121321" seo="true" ref="phone>index"/>
+    <file name="img-kuzela.jpg" crc="3919200839" seo="true" ref="phone>index"/>
+    <file name="img-mildnerova.jpg" crc="431169493" seo="true" ref="phone>index"/>
+    <file name="img-nerudova.jpg" crc="64742465" seo="true" ref="phone>index"/>
+    <file name="img-sirucek.jpg" crc="3839078651" seo="true" ref="phone>index"/>
+    <file name="img-sresl.jpg" crc="406468064" seo="true" ref="phone>index"/>
+    <file name="img-duchac.jpg" crc="311978795" seo="true" ref="phone>index"/>
     <file name="loading.gif" crc="3815509949" ref="phone>index:index"/>
     <file name="allianz_logo.svg" crc="402883693" seo="true" ref="phone>index:index"/>
     <file name="allianz_logo_poster_.png" crc="3805211975" ref="phone>index"/>
@@ -100,24 +105,26 @@
     <file name="matej resl-crop-u15036.jpg" crc="3782853266" ref="index"/>
     <file name="miroslav novak-crop-u15219.jpg" crc="3818109843" ref="index"/>
     <file name="eva fortova-crop-u15246.jpg" crc="492993254" ref="index"/>
-    <file name="img-kuzela.jpg" crc="275485495" seo="true" ref="index"/>
-    <file name="img-mildnerova.jpg" crc="219706867" seo="true" ref="index"/>
-    <file name="img-nerudova.jpg" crc="3780926949" seo="true" ref="index"/>
-    <file name="img-sirucek.jpg" crc="265803105" seo="true" ref="index"/>
-    <file name="img-sresl.jpg" crc="4027501646" seo="true" ref="index"/>
-    <file name="tomas kutej cb-crop-u15071.jpg" crc="354877700" ref="index"/>
-    <file name="jan moles-crop-u15113.jpg" crc="4120032025" ref="index"/>
-    <file name="hel jetelova-crop-u15141.jpg" crc="275723519" ref="index"/>
-    <file name="roman cabalek-crop-u15168.jpg" crc="3859986237" ref="index"/>
-    <file name="anna prochazkova-crop-u15196.jpg" crc="3791004128" ref="index"/>
-    <file name="matej resl-crop-u15042.jpg" crc="321970290" ref="index"/>
-    <file name="miroslav novak-crop-u15225.jpg" crc="234200664" ref="index"/>
-    <file name="eva fortova-crop-u15252.jpg" crc="4276441849" ref="index"/>
-    <file name="img-kuzela-crop-u16624.jpg" crc="3926757471" ref="index"/>
-    <file name="img-mildnerova-crop-u16644.jpg" crc="4280042387" ref="index"/>
-    <file name="img-nerudova-crop-u16664.jpg" crc="3770352058" ref="index"/>
-    <file name="img-sirucek-crop-u16684.jpg" crc="3833003232" ref="index"/>
-    <file name="img-sresl-crop-u16704.jpg" crc="283068183" ref="index"/>
+    <file name="img-kuzela2.jpg" crc="301732489" seo="true" ref="index"/>
+    <file name="img-mildnerova2.jpg" crc="421894388" seo="true" ref="index"/>
+    <file name="img-nerudova2.jpg" crc="37859707" seo="true" ref="index"/>
+    <file name="img-sirucek2.jpg" crc="3782436510" seo="true" ref="index"/>
+    <file name="img-sresl2.jpg" crc="250273447" seo="true" ref="index"/>
+    <file name="img-duchac2.jpg" crc="4199341283" seo="true" ref="index"/>
+    <file name="tomas kutej cb-crop-u15071.jpg" crc="23016684" ref="index"/>
+    <file name="jan moles-crop-u15113.jpg" crc="140825120" ref="index"/>
+    <file name="hel jetelova-crop-u15141.jpg" crc="157187969" ref="index"/>
+    <file name="roman cabalek-crop-u15168.jpg" crc="218461582" ref="index"/>
+    <file name="anna prochazkova-crop-u15196.jpg" crc="413830644" ref="index"/>
+    <file name="matej resl-crop-u15042.jpg" crc="496285569" ref="index"/>
+    <file name="miroslav novak-crop-u15225.jpg" crc="53375210" ref="index"/>
+    <file name="eva fortova-crop-u15252.jpg" crc="105454802" ref="index"/>
+    <file name="img-kuzela-crop-u16624.jpg" crc="525339425" ref="index"/>
+    <file name="img-mildnerova-crop-u16644.jpg" crc="3876677618" ref="index"/>
+    <file name="img-nerudova-crop-u16664.jpg" crc="3949018941" ref="index"/>
+    <file name="img-sirucek-crop-u16684.jpg" crc="280826484" ref="index"/>
+    <file name="img-sresl-crop-u16704.jpg" crc="165794024" ref="index"/>
+    <file name="img-duchac-crop-u16881.jpg" crc="352697045" ref="index"/>
     <file name="img-zoo-logo_poster_u4969.png" crc="140683148" ref="index"/>
     <file name="img-kb-logo_poster_u4945.png" crc="388545437" ref="index"/>
     <file name="general-electric-logo-vector-u3398-fr.png" crc="308112931" ref="index"/>
@@ -138,13 +145,13 @@
     <folder name="css">
       <file name="index.css" crc="3948741586" ref="tablet>index"/>
     </folder>
-    <file name="index.html" crc="452792684" seo="true" mt="1459602126076" redirect="false"/>
+    <file name="index.html" crc="3875055058" seo="true" mt="1459602126076" redirect="false"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="3943290937" ref="phone>index"/>
+      <file name="index.css" crc="3841088999" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="3959375040" seo="true" mt="1464286507473" redirect="true"/>
+    <file name="index.html" crc="182527413" seo="true" mt="1474618801481" redirect="true"/>
   </folder>
-  <file name="index.html" crc="505521636" seo="true" mt="1474485213468" redirect="true"/>
+  <file name="index.html" crc="4165736155" seo="true" mt="1474618892261" redirect="true"/>
 </manifest>
