@@ -2,14 +2,140 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://www.manica.cz/index.html</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://www.manica.cz/phone/index.html"/>
   </url>
   <url>
-    <loc>http://www.manica.cz/assets/shutterstock_v1940254_clipchamp_keep.webm</loc>
-    <lastmod>2016-03-04</lastmod>
+    <loc>http://www.manica.cz/images/pasted-svg-49652x49.svg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/pasted-svg-112196x112.svg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/pasted-svg-43154x31.svg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/pasted-svg-220764x220.svg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/pasted-svg-300x299.svg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/pasted-svg-300x300.svg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/pasted-svg-220764x2202.svg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/pasted-svg-220763x220.svg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/pasted-svg-162358x121.svg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/pasted-svg-3348x52.svg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/tomas%20kutej%20cb.jpg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/jan%20moles.jpg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/hel%20jetelova.jpg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/roman%20cabalek.jpg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/matej%20resl.jpg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/miroslav%20novak.jpg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/cb-anicka.jpg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/eva%20fortova.jpg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/img-kuzela.jpg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/img-mildnerova.jpg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/img-nerudova.jpg</loc>
+    <lastmod>2016-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.manica.cz/images/img-sirucek.jpg</loc>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -20,278 +146,140 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.manica.cz/images/pasted-svg-49652x49.svg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/pasted-svg-112196x112.svg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/pasted-svg-43154x31.svg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/pasted-svg-220764x220.svg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/pasted-svg-300x299.svg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/pasted-svg-300x300.svg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/pasted-svg-220764x2202.svg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/pasted-svg-220763x220.svg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/pasted-svg-162358x121.svg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/pasted-svg-3348x52.svg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/tomas%20kutej%20cb.jpg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/jan%20moles.jpg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/hel%20jetelova.jpg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/roman%20cabalek.jpg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/matej%20resl.jpg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/miroslav%20novak.jpg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/cb-anicka.jpg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/eva%20fortova.jpg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/img-kuzela.jpg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/img-mildnerova.jpg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/img-nerudova.jpg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/assets/shutterstock_v1940254_clipchamp_keep.mp4</loc>
-    <lastmod>2016-03-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.manica.cz/images/img-sresl.jpg</loc>
-    <lastmod>2016-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://www.manica.cz/images/img-duchac.jpg</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/allianz_logo.svg</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/img-ave-logo.svg</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/img-cez-logo.svg</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/img-csob-logo.svg</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/img-dpd-logo.svg</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/equa-bank_logo.png</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/general-electric-logo-vector126x126.png</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/img-generali-logo.svg</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/logo%20%C4%8Dp.png</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/img-kb-logo.svg</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/img-mall-logo.svg</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/img-rwe-logo.svg</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/img-zoo-logo.svg</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/img-skoda-logo.svg</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/pasted-svg-285899x66.svg</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/img-kuzela2.jpg</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/img-mildnerova2.jpg</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/img-nerudova2.jpg</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/img-sirucek2.jpg</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/img-sresl2.jpg</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.manica.cz/images/img-duchac2.jpg</loc>
-    <lastmod>2016-09-23</lastmod>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.manica.cz/images/img-sirucek.jpg</loc>
-    <lastmod>2016-09-23</lastmod>
+    <loc>http://www.manica.cz/images/img-sresl.jpg</loc>
+    <lastmod>2016-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
