@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.manica.cz" resolutions="1x" timestamp="1480584934998">
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.manica.cz" resolutions="1x" timestamp="1481202171371">
   <folder name="css">
     <file name="site_global.css" crc="380125637"/>
     <file name="master_a-master.css" crc="3824530138" ref="index"/>
@@ -108,7 +108,7 @@
     <file name="img-nerudova2.jpg" crc="3946941243" seo="true" ref="index"/>
     <file name="img-sirucek2.jpg" crc="152570713" seo="true" ref="index"/>
     <file name="img-sresl2.jpg" crc="3893605699" seo="true" ref="index"/>
-    <file name="img-miksovska-crop-u16899.jpg" crc="514940623" ref="index"/>
+    <file name="img-miksovska-crop-u16899.jpg" crc="464605081" ref="index"/>
     <file name="img-duchac2.jpg" crc="3779513422" seo="true" ref="index"/>
     <file name="tomas kutej cb-crop-u15071.jpg" crc="509919159" ref="index"/>
     <file name="jan moles-crop-u15113.jpg" crc="339730136" ref="index"/>
@@ -140,6 +140,7 @@
     <file name="equa-bank_logo-u3429-fr.png" crc="3916783438" ref="index"/>
     <file name="img-dpd-logo_poster_u3862.png" crc="3943238482" ref="index"/>
     <file name="img-mca-web-mravenci-bgd.jpg" crc="4159563370" ref="index"/>
+    <file name="img-miksovska.jpg" crc="8563777" seo="true" ref="phone>index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
@@ -149,9 +150,9 @@
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="521293098" ref="phone>index"/>
+      <file name="index.css" crc="470078140" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="3825282241" seo="true" mt="1480583999864" redirect="true"/>
+    <file name="index.html" crc="3884058326" seo="true" mt="1481106609232" redirect="true"/>
   </folder>
-  <file name="index.html" crc="117365923" seo="true" mt="1480584297080" redirect="true"/>
+  <file name="index.html" crc="28417109" seo="true" mt="1481106577624" redirect="true"/>
 </manifest>
