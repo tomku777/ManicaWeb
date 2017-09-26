@@ -161,8 +161,9 @@ nav a:hover {
 	padding: 1px;
 	font-size: small;
 }
-.agenda_table_tr:nth-child(even) {background: #e4333b; color: white}
-.agenda_table_tr:nth-child(odd) {background: white;}
+
+.agenda_table_tr:nth-child(even) {background: white;}
+.agenda_table_tr:nth-child(odd) {background: #e4333b; color: white;}
 
 .agenda_table_td_time {
 	width: 150px;
