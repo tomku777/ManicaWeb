@@ -185,6 +185,7 @@ nav a:hover {
 .bio_table_separator{
 	background-color: #e4333b;
 	height: 10px;
+	color: white;
 }
 .bio_photo_table_td{
 	width: 160px;
