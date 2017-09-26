@@ -161,8 +161,8 @@ nav a:hover {
 	padding: 1px;
 	font-size: small;
 }
-.agenda_table_tr:nth-child(even) {background: #CCC}
-.agenda_table_tr:nth-child(odd) {background: #FFF}
+.agenda_table_tr:nth-child(even) {background: #e4333b; color: white}
+.agenda_table_tr:nth-child(odd) {background: white;}
 
 .agenda_table_td_time {
 	width: 150px;
@@ -172,6 +172,32 @@ nav a:hover {
 .agenda_table_td_text {
 	text-align: left;
 	height: 20px;
+}
+
+.bio_table{
+	width: 100%;
+	border: 0px solid black;
+}
+.bio_title_table_td{
+	width: *;
+	vertical-align: top;	
+}
+.bio_table_separator{
+	background-color: #e4333b;
+	height: 10px;
+}
+.bio_photo_table_td{
+	width: 160px;
+	vertical-align: top;
+	text-align: right;
+}
+.bio_text{
+	font-size: small;
+	text-align: justify;
+	margin-right: 10px;
+}
+.bio_image{
+	width: 150px;
 }
 
 /* ==========================================================================
